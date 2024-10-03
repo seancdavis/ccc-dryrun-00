@@ -21,9 +21,7 @@ export default async (req: Request, context: Context) => {
   }
 };
 
-//
-//  Configure the path for the edge function
-//
+// Configure the path for the edge function
 export const config: Config = {
   path: '/api/count',
 };
